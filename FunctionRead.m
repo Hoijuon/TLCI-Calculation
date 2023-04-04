@@ -1,7 +1,7 @@
 %% Read.
 
 % Read the spectrum.
-path = '.\Spectrum\';
+path = '.\';
 FileName = 'SpectrumDataTest';
 file = dir( fullfile( path, strcat( FileName, '.xlsx' )));
 FullFileName = file.name;
